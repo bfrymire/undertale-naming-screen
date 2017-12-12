@@ -198,7 +198,7 @@ if name_state = 'Choosing_Name' {
                      show_message('name_state is Confirmation');
               }
               if name_index &lt; 1 {
-                     name_index += 0.25 / room_speed; // 1 / 4 seconds;
+                     name_index += 0.25 / room_speed; // 4 seconds;
                      if name_index &gt; 1 {
                             name_index = 1;
                      }
